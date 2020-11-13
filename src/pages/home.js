@@ -62,7 +62,7 @@ const Home = () => {
                 //   fullScreen("https://localhost:3001/onthego?kiosk=true")
                 // }
               >
-                <a href="https://localhost:3001/onthego?kiosk=true">
+                <a href="https://woozeee.herokuapp.com/onthego?kiosk=true">
                 Buy Ticket
                  <span className="fas fa-ticket-alt"></span>
                 </a>

@@ -1,26 +1,33 @@
 .service-card {
-  background: #f28244;
-  padding: 3rem 5rem;
-  width: 35rem;
-  height: 27rem;
-  border-radius: 10px;
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  top: 654px;
+  display: flex;
+  justify-content: center;
+
+  background: #FFFFFF;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(0, 0, 0, 0.1), -2px 0px 2px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 
   img {
-    margin: 0 auto;
-    height: 100px;
-    display: block;
+    position: absolute;
   }
 
   p {
-    text-align: center;
-    padding-top: 2rem;
-    font-weight: 600;
-    color: #ffffffff;
-    font-size: 2.5rem;
-    font-family: Lato;
-    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    // font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
   }
 }
+
+
 
 @media screen and(max-width: 1360px) {
   .service-card {

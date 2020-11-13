@@ -1,0 +1,63 @@
+.loader {
+  height: 100vh !important;
+  width: 100vw !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.balls {
+  width: 200px;
+  height: 50%;
+}
+
+.green-ball, .blue-ball { 
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+}
+
+.green-ball {
+  background: green;
+  -webkit-animation-name: rswap; 
+  animation-name: rswap; 
+  animation: 2s rswap linear infinite;
+  position: relative;
+}
+
+.blue-ball { 
+  background: blue;
+  -webkit-animation-name: lswap; 
+  animation-name: lswap; 
+  animation: 2s lswap linear infinite;
+  position: relative;
+}
+
+@keyframes rswap {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 66%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+@keyframes lswap {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 66%;
+  }
+  100% {
+    right: 0;    
+  }
+}

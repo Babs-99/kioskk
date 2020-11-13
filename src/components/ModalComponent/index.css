@@ -1,0 +1,57 @@
+.modal {
+  background: rgba(0, 0, 0, 0.90);
+}
+
+.close {
+  width: 2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  background-color: white !important;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.1);
+  min-height: 90vh;
+  border: 0px !important;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  border: 0px !important;
+  padding: 0px;
+}
+
+.modal-footer {
+  justify-content: start !important;
+}
+
+.modalText {
+  width: 25%;
+}
+
+.arrow img {
+  max-width: 50px;
+  max-height: 250px;
+}
+         
+.bounce { 
+  -webkit-animation-name: bounce; 
+  animation-name: bounce; 
+  animation: 10s bounce linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes bounce { 
+  100%, 0% {
+    bottom: -10px;
+    /* top:0; */
+  }
+
+  50% {
+    bottom: -50px;
+  }
+}
