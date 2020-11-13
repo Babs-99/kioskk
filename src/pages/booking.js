@@ -109,67 +109,72 @@ const Booking = () => {
           <div className="tabs right" onClick={() => setModalShow(true)}>
             <img src="./asset/img/qricon.svg" alt="" />
             <p className="tabspan">Scan QR Code </p>
-            </div>
-          
+          </div>
+
 
           <div className="tabContent">
-            {/* <form> */}
-              <div className="grid-container row d-flex justify-content-between px-5">
+            <form>
+            <div className="grid-container row d-flex justify-content-between px-5">
               {/* <div className="row d-flex justify-content-between"> */}
                 <div className="grid-item col-5">
+                  
                 {/* <div className="col"> */}
-                  <div className="input-icons">
-                    <i className="fa pt-3 pl-3">
-                      <span> <img src="./asset/img/contact.svg" alt="" /> </span>
-                    </i>
-                    <input className="input-field" type="text" placeholder="First Name" />
+                <div className="input-icons">
+                  <i className="fa pl-3">
+                    {/* <span> */}
+                    <img src="./asset/img/contact.svg" alt="" />
+                    {/* </span> */}
+                  </i>
+                  <input className="input-field" type="text" placeholder="First Name" />
 
-                  </div>
-                </div>
-
-                <div className="grid-item col-5">
-                {/* <div className="col"> */}
-                  <div className="input-icons">
-                    <i className="fa pt-3 pl-3">
-                      <span> <img src="./asset/img/booking.png" alt="" /> </span>
-                    </i>
-                    <input className="input-field" type="text" placeholder="Booking reference" />
-
-                  </div>
-                </div>
-
-                <div className="grid-item col-2">
-                {/* <div className="col"> */}
-                  <button className="boarding-but">
-                    <a href="checkin">
-                      Search
-                          </a>
-                  </button>
-
-                  <Modal show={show} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                      <Modal.Title>Create New account</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <p>Username</p>
-                      <input className="input-field2" type="text" placeholder="Username" />
-                      <p>Email Address</p>
-                      <input className="input-field2" type="text" placeholder="Email Address" />
-                      <p>Password</p>
-                      <input className="input-field2" type="text" placeholder="Password" />
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <Button variant="secondary" onClick={handleClose}>
-                        Close
-          </Button>
-                      <Button variant="primary" onClick={handleClose}>
-                        Save Changes
-          </Button>
-                    </Modal.Footer>
-                  </Modal>
                 </div>
               </div>
-            {/* </form> */}
+
+              <div className="grid-item col-5">
+                {/* <div className="col"> */}
+                <div className="input-icons">
+                  <i className="fa pl-3">
+                    {/* <span> */}
+                    <img src="./asset/img/booking.png" alt="" />
+                    {/* </span> */}
+                  </i>
+                  <input className="input-field" type="text" placeholder="Booking reference" />
+
+                </div>
+              </div>
+
+              <div className="grid-item col-2">
+                {/* <div className="col"> */}
+                <button className="boarding-but">
+                  <a href="checkin">
+                    Search
+                          </a>
+                </button>
+
+                <Modal show={show} onHide={handleClose}>
+                  <Modal.Header closeButton>
+                    <Modal.Title>Create New account</Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <p>Username</p>
+                    <input className="input-field2" type="text" placeholder="Username" />
+                    <p>Email Address</p>
+                    <input className="input-field2" type="text" placeholder="Email Address" />
+                    <p>Password</p>
+                    <input className="input-field2" type="text" placeholder="Password" />
+                  </Modal.Body>
+                  <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                      Close
+          </Button>
+                    <Button variant="primary" onClick={handleClose}>
+                      Save Changes
+          </Button>
+                  </Modal.Footer>
+                </Modal>
+              </div>
+            </div>
+              </form>
 
             <MyModal
               show={modalShow}

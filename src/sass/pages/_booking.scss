@@ -181,6 +181,7 @@ video {
 
 .input-icons i {
   position: absolute;
+  padding-top: 0.85rem;
 }
 
 .input-icons {
@@ -200,14 +201,15 @@ video {
   border: 0.5px solid #9b9a9a;
   border-radius: 5px;
   font-size: 1rem;
-  padding-top: 5px;
+  padding-top: 3px;
   padding-left: 50px;
   text-align: left;
   font-weight: 400;
 }
 
 .input-field:focus {
-  border: 0.5px solid #043F7C !important;
+  outline: 0;
+  border: 0.5px solid rgb(4, 63, 124) !important;
   color: #043F7C;
   background-color: rgba(4, 63, 124, 0.04);
   box-sizing: border-box;
@@ -263,9 +265,9 @@ video {
   border-radius: 0px 5px 5px 5px;
 }
 
-// .tabContent form {
-//   width: 100%;
-// }
+.tabContent form {
+  width: 100%;
+}
 
 // .tabContent form .row {
 //   margin: auto;

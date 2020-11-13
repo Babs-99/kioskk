@@ -23,7 +23,7 @@ const HeaderNavigator = ({ title }) => {
             <span className="fas fa-arrow-left"></span>
           </a>
           <a
-            href="https://woozeee.herokuapp.com/onthego?kiosk=true"
+            href="https://localhost:3001/onthego?kiosk=true"
             aria-label="forward button"
             className="navigator-icon"
             onClick={forward}
