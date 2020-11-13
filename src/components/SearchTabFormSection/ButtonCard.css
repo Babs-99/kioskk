@@ -1,0 +1,12 @@
+.MuiToggleButton-root.Mui-selected:hover {
+    background-color: rgba(30, 143, 235, 0.78);
+}
+MuiToggleButton-root:hover {
+    text-decoration: none;
+    background-color: rgba(39, 135, 214, 0.81);
+}
+MuiToggleButton-root.Mui-selected {
+/* color: rgba(43, 125, 235, 0.54); */
+    /* background-color: rgba(15, 122, 190, 0.12); */
+    background-color: rgba(39, 135, 214, 0.81);
+}

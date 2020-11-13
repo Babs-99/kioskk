@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* color: #e5e5e5; */
+  /* background-color: #e5e5e5; */
+  background-color: #e9ecef;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a#noanim-tab-example-tab-buses {
+  border-right: 1px solid;
+  border-bottom: 1px solid
+}
+
+a#noanim-tab-example-tab-flights {
+  border-right: 1px solid;
+  border-bottom: 1px solid
+}
+
+a#noanim-tab-example-tab-ferries {
+  border-right: 1px solid;
+  border-bottom: 1px solid
+}
+
+a#noanim-tab-example-tab-trains {
+  border-right: 1px solid;
+  border-bottom: 1px solid
+}
+
+
+.redux-toastr .top-right {
+  top: 60px !important;
+}
+
+.redux-toastr .rrt-left-container {
+  display: none !important;
+}
+
+
+
+.redux-toastr .rrt-middle-container {
+  margin-left: 10px !important;
+  margin-top: 10px !important;
+  width: 80% !important;
+  font-size: 1rem !important;
 }
