@@ -18,7 +18,7 @@ function ModalComponent(props) {
       <Modal.Body className="d-flex align-items-center justify-content-center">
         <div className="d-flex">
           <div>
-            <img className="px-2 py-2 " src="./asset/img/qrcode.svg" alt="" />
+            <img className="px-2 py-2 " src="./asset/img/QRcode.svg" alt="" />
           </div>
         </div>
       </Modal.Body>
