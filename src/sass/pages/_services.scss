@@ -1,0 +1,23 @@
+.services {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.8)),
+    url(https://res.cloudinary.com/ibk-code/image/upload/v1597965132/pexels-pixabay-358622-min_zffpfm.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+}
+
+.service-wrapper {
+  position: relative;
+
+  .service-list {
+    display: flex;
+    justify-content: center;
+    transform: translateY(5rem);
+
+    > div:not(:first-child) {
+      margin-left: 2rem;
+    }
+  }
+}

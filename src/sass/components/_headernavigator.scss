@@ -1,0 +1,31 @@
+.header-pointer {
+  box-shadow: 2px 1rem 10px #eeeeee;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+
+  .header-pointer__navigator {
+    padding-top: 1rem;
+  }
+
+  .navigator-icon {
+    font-size: 1.6rem;
+    color: $fifth-color;
+    font-weight: 300;
+
+    &:not(:first-child) {
+      padding-left: 2rem;
+    }
+  }
+
+  .navigator-setting {
+    font-size: 1.6rem;
+    color: $fifth-color;
+    padding-top: 1rem;
+  }
+
+  .navigator-page {
+    font-size: 3rem;
+    margin-left: -6rem;
+  }
+}

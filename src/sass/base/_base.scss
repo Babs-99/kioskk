@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  body {
+    font-family: "Lato", "Montserrat", sans-serif;
+    position: relative;
+  }
+}
+
+@media screen and(max-width: 2707px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media screen and(max-width: 1360px) {
+  html {
+    font-size: 62.5%;
+  }
+}

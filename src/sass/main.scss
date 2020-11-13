@@ -1,0 +1,22 @@
+// import abstracts
+@import "./abstracts/variables";
+
+// import  base
+@import "./base/base";
+
+// import component
+@import "./components/headernavigator";
+@import "./components/buttoncomponent";
+@import "./components/cardcomponent";
+
+// import layout
+@import "./layout/skipcontent";
+
+// import pages
+@import "./pages/home";
+@import "./pages/services";
+@import "./pages/print";
+@import "./pages/booking";
+@import "./pages/checkin";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

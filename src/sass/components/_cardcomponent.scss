@@ -1,0 +1,54 @@
+.service-card {
+  background: #f28244;
+  padding: 3rem 5rem;
+  width: 35rem;
+  height: 27rem;
+  border-radius: 10px;
+
+  img {
+    margin: 0 auto;
+    height: 100px;
+    display: block;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 600;
+    color: #ffffffff;
+    font-size: 2.5rem;
+    font-family: Lato;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and(max-width: 1360px) {
+  .service-card {
+    width: 30rem;
+    height: 20rem;
+
+    img {
+      height: 75px;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .service-card {
+    width: 17rem;
+    height: 18rem;
+    padding: 3rem 2rem;
+
+    img {
+      height: 50px;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
